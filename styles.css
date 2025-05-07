@@ -1,0 +1,49 @@
+* {
+ 	padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+ }
+ #tit {
+        font-size: 60px;
+        font-weight: bold;
+        font-family: Times New Roman;
+        padding-left: 10%;
+ }
+ .con {
+        background-image: linear-gradient(cyan, lavender, skyblue);
+        border: 3px solid;
+}
+.ftit:hover {
+        text-decoration: underline;
+}
+a{
+        font-size: x-large;
+        text-decoration: none;
+        color: darkviolet;
+}
+#content {
+        font-size: x-large;
+        text-indent: 7%;
+}
+.bg{
+        opacity:0.8;
+}
+.heading{
+	text-decoration: underline;
+}
+#formv label{
+	font-size: xx-large;
+	color:white;
+}
+ #formv input{
+	height:15%;
+	width: 50%;
+}
+#uname,#pass{
+	height:15%;
+	width: 50%;
+}
+footer{
+	height:auto;
+}
+
