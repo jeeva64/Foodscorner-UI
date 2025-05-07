@@ -55,7 +55,7 @@
                     </div>
                 </div>
             </div><br>
-            <input type="submit" name="submit" class="btn btn-success" onclick="alert('Login feature not available yet.')"><br><br>
+            <input type="submit" name="submit" class="btn btn-success" onclick="Validate()"><br><br>
         </form>
     </div>    
     <footer class="conatainer-fluaid con">
@@ -89,7 +89,6 @@
         function Validate(){
             var name=document.getElementById("uname").value;
             var pass=document.getElementById("pass").value;
-            var admin=document.getElementById("admin");
             if(name==""){
                 alert("Enter Your Username");
                 return false;
@@ -98,9 +97,10 @@
                 alert("Enter Your Password");
                 return false;
             }
-            if(admin.checked){
-                alert("It is only For Admin");
-            }
+           document.getElementById('formv').addEventListener('submit', function(e) {
+                e.preventDefault(); // stop the POST
+                alert('Register feature not available yet.');
+          });
         }
     </script>
 </body>
